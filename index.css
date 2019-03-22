@@ -321,26 +321,26 @@ h3 {
 }
 .scroll-container {
     background:var(--offer-white);
-    width: 30rem;
+    width: 35rem;
     height: 25rem;
     overflow: auto;
     margin: auto;
 }
 .long-container {
   background:var(--offer-white);
-  width: 30rem;
+  width: 35rem;
   height: 12000px;
   display: flex;
   flex-direction: row;
 }
 .center-projects {
   height: 100%;
-  width: 30rem;
+  width: 35rem;
   background: var(--white);
 }
 .project-image{
-  height:12rem;
-  width: 17rem;
+  height:14rem;
+  width: 20rem;
   margin: 0 auto;
   padding: 10px 0;
 }
@@ -382,17 +382,12 @@ input {
   background: transparent;
   outline: none;
   color: var(--black);
-  border: solid 1px #b3aca7;
+  border: solid 2px var(--black);
   border-bottom: none;
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
-}
-
-input:hover {
-  background: #b3aca7;
-  color: var(--black);
 }
 
 textarea {
@@ -405,33 +400,41 @@ textarea {
   outline: none;
   color: var(--black);
   font-size: 0.875rem;
-  border: solid 1px #b3aca7;
+  border: solid 2px var(--black);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -ms-transition: all 0.3s ease-in-out;
 }
 
-textarea:hover {
-  background: #b3aca7;
-  color: var(--black);
-}
 
 #submit {
-  width:101%;
+  width:101.2%;
   padding: 0;
   margin: -5px 0px 0px 0px;
   font-size: 0.875em;
   outline:none;
   cursor: pointer;
-  border: solid 1px #b3aca7;
+  border: solid 2px var(--black);
   border-top: none;
 }
 
 #submit:hover {
-  color: #e2dedb;
+  background: var(--orange);
 }
 
+#name:hover {
+  background: var(--blue);
+  color: var(--black);
+}
+#email:hover {
+  background: var(--blonde);
+  color: var(--black);
+}
+#message:hover {
+  background: #BFCEBF;
+  color: var(--black);
+}
 
 
 
@@ -490,9 +493,29 @@ textarea:hover {
     height: 50px;
   }
   .me {
+    margin-top: 200px;
     height: 300px;
     width: 300px;
   }
+  .about-me-page {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .image-container {
+    height: 100vh;
+    display: flex;
+  }
+
+  .about-me-heading {
+    margin-top: 150px;
+  }
+
+
  }
  
  /* Extra large devices (large laptops and desktops, 1200px and up) */
