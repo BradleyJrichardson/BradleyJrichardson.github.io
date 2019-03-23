@@ -88,7 +88,7 @@ h3 {
 }
 
 .wrapper {
-  height: 10000px;
+  height: auto;
   background: var(--offer-white);
   display: flex;
   flex-direction: column;
@@ -127,13 +127,14 @@ h3 {
   justify-content: space-between;
   margin: 0 10px;
 }
-.navbar .nav-items p {
+.navbar .nav-items a {
   padding: 4px;
   font-size: 1.3em;
   border-radius: 10%;
-  margin: auto;
+  color: var(--offer-white);
+  margin-top:5px;
 }
-.navbar .nav-items p:hover {
+.navbar .nav-items a:hover {
   background: var(--offer-white);
   color: black;
 }
@@ -322,7 +323,7 @@ h3 {
 .scroll-container {
     background:var(--offer-white);
     width: 35rem;
-    height: 25rem;
+    height: 40rem;
     overflow: auto;
     margin: auto;
     box-shadow: var(--shadow);
@@ -494,7 +495,6 @@ input:focus, textarea:focus {
 	transition: all 0.3s;
   margin-top:-4px;
   font-weight:700;
-  box-shadow: var(--shadow);
 }
 
 #button-blue:hover{
