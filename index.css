@@ -48,13 +48,13 @@ body {
 .heading {
 font-size: 5rem;
 margin: 0 auto;
-font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Nunito', sans-serif;
 color: var(--black);
 }
 h2 {
   font-size: 2.2rem;
   font: bold;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Nunito', sans-serif;
   padding-bottom: 5px;
   margin: 0 auto;
   text-align: center;
@@ -63,7 +63,7 @@ h2 {
 h3 {
   font-size: 2rem;
   font: bold;
-  font-family: 'ZCOOL XiaoWei', serif;
+  font-family: 'Nunito', sans-serif;
   padding-bottom: 5px;
   margin: 0 auto;
   text-align: center;
@@ -203,24 +203,6 @@ h3 {
   animation: change-color 5s ease 2s infinite normal ;
  }
  
- /* @-webkit-keyframes change-color {
-   0%{
-   color: black;
-   }
-   100%{
-   color:white;
-   }
- }
- 
- @keyframes change-color {
-   0%{
-   color: black;
-   }
-   100%{
-   color:white;
-   }
- } */
-
 /* -------------------- cube animation and styles ------------------- */
 .cube {
   display: flex;
@@ -286,8 +268,9 @@ h3 {
 .image-container {
   background: var(--blond);
   width: 100vw;
-  height: 60%;
+  height: 50%;
   display: flex;
+  flex-direction: column;
 }
 .me {
   height: 250px;
@@ -314,6 +297,10 @@ h3 {
   max-width: 500px;
 }
 
+.about-past {
+  text-align: left;
+}
+
 /*------------------- PAGE 3 --------------------- */
 .projects-page {
   background: #BFCEBF;
@@ -324,7 +311,7 @@ h3 {
 }
 .projects-heading {
   color:var(--black);
-  padding-top: 30px;
+  padding-top: 50px;
 }
 .scroll-container {
     background:var(--offer-white);
@@ -353,7 +340,14 @@ h3 {
   padding: 10px 0;
   box-shadow: var(--shadow);
 }
+.icon a {
+  color: var(--black);
+  text-decoration: none;
+}
 
+.icon .hover:hover {
+  transform: scale(1.1);
+}
 
 /* ---------------------- page 4 ---------------------------------- */
 
@@ -583,9 +577,7 @@ input:focus, textarea:focus {
     width: 50vw;
   }
 
-  .text-container {
-    flex-direction: column;
-  }
+
   
  }
  
@@ -597,11 +589,11 @@ input:focus, textarea:focus {
   .navbar {
     height: 50px;
   }
-  .me {
+  /* .me {
     margin-top: 200px;
     height: 300px;
     width: 300px;
-  }
+  } */
   .about-me-page {
     height: 100vh;
     width: 100vw;
@@ -611,15 +603,38 @@ input:focus, textarea:focus {
     flex-direction: row;
   }
 
+  .about-me-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   .image-container {
     height: 100vh;
+    width: 50%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
   }
 
-  .about-me-heading {
+  .side-container {
+    height: 100vh;
+    width:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* .about-me-heading {
     margin-top: 150px;
-  }
+  } */
 
+  .text-container {
+    flex-direction: column;
+  }
 
  }
  

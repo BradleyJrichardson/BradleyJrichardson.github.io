@@ -52,21 +52,18 @@ Upon using Figma and attempting to use a colour palette a major revision was und
 
 Portfolio 2.1 was built mobile first and relied on flexbox/rem units to achieve a responsive design that suited all screen sizes. After the build was completed the colour scheme was revamped to what is seen in final product.  
 
-## 
+ 
 
-# Screenshots 
+## Screenshots 
 
 <h2 align="center"> 
-Initial Planning
+Trello Use
 </h2>
 <p align="center">
-  <img width="250" height="250" src=docs/planning.jpg>
-  <img width="250" height="250" src=docs/planning1.jpg>
-  <img width="250" height="250" src=docs/planning2.jpg>
+  <img width="220" height="250" src=docs/trello1.png>
+  <img width="220" height="250" src=docs/trello2.png>
+  <img width="220" height="250" src=docs/trello3.png>
 </p>
 
-<p align="center">
-  <img width="250" height="250" src=docs/planning3.jpg>
-  <img width="250" height="250" src=docs/planning4.jpg>
-</p>
+
 
